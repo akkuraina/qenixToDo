@@ -28,7 +28,7 @@ export default function RegisterPage() {
     setError("");
 
     // For now: registering logs user in
-    login(email);
+    login(email, password);
   };
 
   return (

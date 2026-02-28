@@ -26,7 +26,7 @@ export default function TaskList() {
       </select>
 
       {filtered.map((task) => (
-        <TaskItem key={task.id} task={task} />
+        <TaskItem key={task._id} task={task} />
       ))}
     </div>
   );

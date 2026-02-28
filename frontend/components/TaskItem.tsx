@@ -94,7 +94,7 @@ export default function TaskItem({ task }: Props) {
         </button>
 
         <button
-          onClick={() => deleteTask(task.id)}
+          onClick={() => deleteTask(task._id)}
           className="bg-red-500 text-white px-3 py-1"
         >
           Delete

@@ -14,8 +14,7 @@ export default function LoginPage() {
 
     if (!email || !password) return;
 
-    // For now we don't validate password (backend later)
-    login(email);
+    login(email, password);
   };
 
   return (
